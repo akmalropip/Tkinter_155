@@ -8,3 +8,6 @@ L1.pack()
 
 L2 = tk.Label(top, text="Masukkan Nilai Mata Pelajaran")
 L2.pack()
+
+L3 = tk.Label(top, text="Matematika")
+L3.pack()
