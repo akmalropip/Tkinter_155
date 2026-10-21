@@ -60,7 +60,7 @@ E10 = tk.Entry(top, bd=3)
 E10.pack()
 
 def hasilPrediksi():
-    L13.config(text="Hasil Prediksi: Teknologi Informasi")
+    L13.config(text="Hasil Prediksi: Teknologi Informasi") #mengubah tulisan pada label hasil
 
 L13 = tk.Label(top, text="Hasil Prediksi: ")
 L13.pack()
