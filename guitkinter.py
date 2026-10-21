@@ -61,3 +61,10 @@ E10.pack()
 
 def hasilPrediksi():
     L13.config(text="Hasil Prediksi: Teknologi Informasi")
+
+L13 = tk.Label(top, text="Hasil Prediksi: ")
+L13.pack()
+
+B1 = tk.Button(top, text="Hasil Prediksi",
+               command=hasilPrediksi)
+B1.pack()   
