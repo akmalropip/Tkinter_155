@@ -65,8 +65,7 @@ def hasilPrediksi():
 L13 = tk.Label(top, text="Hasil Prediksi: ")
 L13.pack()
 
-B1 = tk.Button(top, text="Hasil Prediksi",
-               command=hasilPrediksi)
+B1 = tk.Button(top, text="Hasil Prediksi", command=hasilPrediksi) #saat tombol diklik, fungsi hasilPrediksi dijalankan
 B1.pack()
 
 L13 = tk.Label(top, text="Hasil Prediksi: -")
