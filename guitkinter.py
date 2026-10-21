@@ -67,4 +67,9 @@ L13.pack()
 
 B1 = tk.Button(top, text="Hasil Prediksi",
                command=hasilPrediksi)
-B1.pack()   
+B1.pack()
+
+L13 = tk.Label(top, text="Hasil Prediksi: -")
+L13.pack()
+
+top.mainloop()
