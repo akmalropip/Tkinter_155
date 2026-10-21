@@ -13,3 +13,6 @@ L3 = tk.Label(top, text="Matematika")
 L3.pack()
 E1 = tk.Entry(top, bd=3)
 E1.pack()
+
+L4 = tk.Label(top, text="Bahasa Indonesia")
+L4.pack()
