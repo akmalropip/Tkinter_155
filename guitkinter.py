@@ -16,3 +16,48 @@ E1.pack()
 
 L4 = tk.Label(top, text="Bahasa Indonesia")
 L4.pack()
+E2 = tk.Entry(top, bd=3)
+E2.pack()
+
+L5 = tk.Label(top, text="Bahasa Inggris")
+L5.pack()
+E3 = tk.Entry(top, bd=3)
+E3.pack()
+
+L6 = tk.Label(top, text="Fisika")
+L6.pack()
+E4 = tk.Entry(top, bd=3)
+E4.pack()
+
+L7 = tk.Label(top, text="Kimia")
+L7.pack()
+E5 = tk.Entry(top, bd=3)
+E5.pack()
+
+L8 = tk.Label(top, text="Biologi")
+L8.pack()
+E6 = tk.Entry(top, bd=3)
+E6.pack()
+
+L9 = tk.Label(top, text="Sejarah")
+L9.pack()
+E7 = tk.Entry(top, bd=3)
+E7.pack()
+
+L10 = tk.Label(top, text="Ekonomi")
+L10.pack()
+E8 = tk.Entry(top, bd=3)
+E8.pack()
+
+L11 = tk.Label(top, text="Geografi")
+L11.pack()
+E9 = tk.Entry(top, bd=3)
+E9.pack()
+
+L12 = tk.Label(top, text="Informatika")
+L12.pack()
+E10 = tk.Entry(top, bd=3)
+E10.pack()
+
+def hasilPrediksi():
+    L13.config(text="Hasil Prediksi: Teknologi Informasi")
